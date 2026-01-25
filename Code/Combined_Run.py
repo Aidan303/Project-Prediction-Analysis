@@ -40,45 +40,45 @@ if __name__ == "__main__":
 
     # Triangular paths
     triangular_paths = [
-        r"C:\Users\aidan\Documents\Independent Study\course_files_export V1\Simulation Results\Activities Triangular\Set 1 SP Completion Times - Triangular.csv",
-        r"C:\Users\aidan\Documents\Independent Study\course_files_export V1\Simulation Results\Activities Triangular\Set 2.1 AD (low SP) Completion Times - Triangular.csv",
-        r"C:\Users\aidan\Documents\Independent Study\course_files_export V1\Simulation Results\Activities Triangular\Set 2.2 AD (mid SP) Completion Times - Triangular.csv",
-        r"C:\Users\aidan\Documents\Independent Study\course_files_export V1\Simulation Results\Activities Triangular\Set 3.1 LA (low SP) Completion Times - Triangular.csv",
-        r"C:\Users\aidan\Documents\Independent Study\course_files_export V1\Simulation Results\Activities Triangular\Set 3.2 LA (mid SP) Completion Times - Triangular.csv",
-        r"C:\Users\aidan\Documents\Independent Study\course_files_export V1\Simulation Results\Activities Triangular\Set 3.3 LA (high SP) Completion Times - Triangular.csv",
-        r"C:\Users\aidan\Documents\Independent Study\course_files_export V1\Simulation Results\Activities Triangular\Set 4.1 TF (low SP) Completion Times - Triangular.csv",
-        r"C:\Users\aidan\Documents\Independent Study\course_files_export V1\Simulation Results\Activities Triangular\Set 4.2 TF (mid SP) Completion Times - Triangular.csv",
-        r"C:\Users\aidan\Documents\Independent Study\course_files_export V1\Simulation Results\Activities Triangular\Set 4.3 TF (high SP) Completion Times - Triangular.csv"
+        r"Simulation Results\Activities Triangular\Set 1 SP Completion Times - Triangular.csv",
+        r"Simulation Results\Activities Triangular\Set 2.1 AD (low SP) Completion Times - Triangular.csv",
+        r"Simulation Results\Activities Triangular\Set 2.2 AD (mid SP) Completion Times - Triangular.csv",
+        r"Simulation Results\Activities Triangular\Set 3.1 LA (low SP) Completion Times - Triangular.csv",
+        r"Simulation Results\Activities Triangular\Set 3.2 LA (mid SP) Completion Times - Triangular.csv",
+        r"Simulation Results\Activities Triangular\Set 3.3 LA (high SP) Completion Times - Triangular.csv",
+        r"Simulation Results\Activities Triangular\Set 4.1 TF (low SP) Completion Times - Triangular.csv",
+        r"Simulation Results\Activities Triangular\Set 4.2 TF (mid SP) Completion Times - Triangular.csv",
+        r"Simulation Results\Activities Triangular\Set 4.3 TF (high SP) Completion Times - Triangular.csv"
     ]
 
     run_distribution("Triangular", triangular_paths, output_file)
 
     # Lognormal paths
     lognormal_paths = [
-        r"C:\Users\aidan\Documents\Independent Study\course_files_export V1\Simulation Results\Activities Lognormal\Set 1 SP Completion Times - Lognormal.csv",
-        r"C:\Users\aidan\Documents\Independent Study\course_files_export V1\Simulation Results\Activities Lognormal\Set 2.1 AD (low SP) Completion Times - Lognormal.csv",
-        r"C:\Users\aidan\Documents\Independent Study\course_files_export V1\Simulation Results\Activities Lognormal\Set 2.2 AD (mid SP) Completion Times - Lognormal.csv",
-        r"C:\Users\aidan\Documents\Independent Study\course_files_export V1\Simulation Results\Activities Lognormal\Set 3.1 LA (low SP) Completion Times - Lognormal.csv",
-        r"C:\Users\aidan\Documents\Independent Study\course_files_export V1\Simulation Results\Activities Lognormal\Set 3.2 LA (mid SP) Completion Times - Lognormal.csv",
-        r"C:\Users\aidan\Documents\Independent Study\course_files_export V1\Simulation Results\Activities Lognormal\Set 3.3 LA (high SP) Completion Times - Lognormal.csv",
-        r"C:\Users\aidan\Documents\Independent Study\course_files_export V1\Simulation Results\Activities Lognormal\Set 4.1 TF (low SP) Completion Times - Lognormal ln.csv",
-        r"C:\Users\aidan\Documents\Independent Study\course_files_export V1\Simulation Results\Activities Lognormal\Set 4.2 TF (mid SP) Completion Times - Lognormal.csv",
-        r"C:\Users\aidan\Documents\Independent Study\course_files_export V1\Simulation Results\Activities Lognormal\Set 4.3 TF (high SP) Completion Times - Lognormal.csv"
+        r"Simulation Results\Activities Lognormal\Set 1 SP Completion Times - Lognormal.csv",
+        r"Simulation Results\Activities Lognormal\Set 2.1 AD (low SP) Completion Times - Lognormal.csv",
+        r"Simulation Results\Activities Lognormal\Set 2.2 AD (mid SP) Completion Times - Lognormal.csv",
+        r"Simulation Results\Activities Lognormal\Set 3.1 LA (low SP) Completion Times - Lognormal.csv",
+        r"Simulation Results\Activities Lognormal\Set 3.2 LA (mid SP) Completion Times - Lognormal.csv",
+        r"Simulation Results\Activities Lognormal\Set 3.3 LA (high SP) Completion Times - Lognormal.csv",
+        r"Simulation Results\Activities Lognormal\Set 4.1 TF (low SP) Completion Times - Lognormal ln.csv",
+        r"Simulation Results\Activities Lognormal\Set 4.2 TF (mid SP) Completion Times - Lognormal.csv",
+        r"Simulation Results\Activities Lognormal\Set 4.3 TF (high SP) Completion Times - Lognormal.csv"
     ]
 
     run_distribution("Lognormal", lognormal_paths, output_file)
 
     # BigBeta paths
     bigbeta_paths = [
-        r"C:\Users\aidan\Documents\Independent Study\course_files_export V1\Simulation Results\Activities Beta\Set 1 SP Completion Times - Beta.csv",
-        r"C:\Users\aidan\Documents\Independent Study\course_files_export V1\Simulation Results\Activities Beta\Set 2.1 AD (low SP) Completion Times - Beta.csv",
-        r"C:\Users\aidan\Documents\Independent Study\course_files_export V1\Simulation Results\Activities Beta\Set 2.2 AD (mid SP) Completion Times - Beta.csv",
-        r"C:\Users\aidan\Documents\Independent Study\course_files_export V1\Simulation Results\Activities Beta\Set 3.1 LA (low SP) Completion Times - Beta.csv",
-        r"C:\Users\aidan\Documents\Independent Study\course_files_export V1\Simulation Results\Activities Beta\Set 3.2 LA (mid SP) Completion Times - Beta.csv",
-        r"C:\Users\aidan\Documents\Independent Study\course_files_export V1\Simulation Results\Activities Beta\Set 3.3 LA (high SP) Completion Times - Beta.csv",
-        r"C:\Users\aidan\Documents\Independent Study\course_files_export V1\Simulation Results\Activities Beta\Set 4.1 TF (low SP) Completion Times - Beta.csv",
-        r"C:\Users\aidan\Documents\Independent Study\course_files_export V1\Simulation Results\Activities Beta\Set 4.2 TF (mid SP) Completion Times - Beta.csv",
-        r"C:\Users\aidan\Documents\Independent Study\course_files_export V1\Simulation Results\Activities Beta\Set 4.3 TF (high SP) Completion Times - Beta.csv"
+        r"Simulation Results\Activities Beta\Set 1 SP Completion Times - Beta.csv",
+        r"Simulation Results\Activities Beta\Set 2.1 AD (low SP) Completion Times - Beta.csv",
+        r"Simulation Results\Activities Beta\Set 2.2 AD (mid SP) Completion Times - Beta.csv",
+        r"Simulation Results\Activities Beta\Set 3.1 LA (low SP) Completion Times - Beta.csv",
+        r"Simulation Results\Activities Beta\Set 3.2 LA (mid SP) Completion Times - Beta.csv",
+        r"Simulation Results\Activities Beta\Set 3.3 LA (high SP) Completion Times - Beta.csv",
+        r"Simulation Results\Activities Beta\Set 4.1 TF (low SP) Completion Times - Beta.csv",
+        r"Simulation Results\Activities Beta\Set 4.2 TF (mid SP) Completion Times - Beta.csv",
+        r"Simulation Results\Activities Beta\Set 4.3 TF (high SP) Completion Times - Beta.csv"
     ]
 
     run_distribution("BigBeta", bigbeta_paths, output_file)
