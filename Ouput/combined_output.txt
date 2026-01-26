@@ -19,7 +19,7 @@ Triangular Overall Result Dictionary:
 
 Triangular Individual dict_diff Dictionaries:
 
-File 1: Simulation Results\Activities Triangular\Set 1 SP Completion Times - Triangular.csv
+File 1: C:\Users\aidan\Documents\Independent Study\course_files_export V1\Python Scripts\Code\EDA\../../Simulation Results\Activities Triangular\Set 1 SP Completion Times - Triangular.csv
 {
     "CPM": 15.682762020343441,
     "PERT": 8.656347307708764,
@@ -27,7 +27,7 @@ File 1: Simulation Results\Activities Triangular\Set 1 SP Completion Times - Tri
     "Lognormal Mean": 4.080582187884445
 }
 
-File 2: Simulation Results\Activities Triangular\Set 2.1 AD (low SP) Completion Times - Triangular.csv
+File 2: C:\Users\aidan\Documents\Independent Study\course_files_export V1\Python Scripts\Code\EDA\../../Simulation Results\Activities Triangular\Set 2.1 AD (low SP) Completion Times - Triangular.csv
 {
     "CPM": 16.471216898399867,
     "PERT": 9.510470370051133,
@@ -35,7 +35,7 @@ File 2: Simulation Results\Activities Triangular\Set 2.1 AD (low SP) Completion 
     "Lognormal Mean": 4.977618679276455
 }
 
-File 3: Simulation Results\Activities Triangular\Set 2.2 AD (mid SP) Completion Times - Triangular.csv
+File 3: C:\Users\aidan\Documents\Independent Study\course_files_export V1\Python Scripts\Code\EDA\../../Simulation Results\Activities Triangular\Set 2.2 AD (mid SP) Completion Times - Triangular.csv
 {
     "CPM": 14.7310650675812,
     "PERT": 7.62531824326637,
@@ -43,7 +43,7 @@ File 3: Simulation Results\Activities Triangular\Set 2.2 AD (mid SP) Completion 
     "Lognormal Mean": 2.9978600383516913
 }
 
-File 4: Simulation Results\Activities Triangular\Set 3.1 LA (low SP) Completion Times - Triangular.csv
+File 4: C:\Users\aidan\Documents\Independent Study\course_files_export V1\Python Scripts\Code\EDA\../../Simulation Results\Activities Triangular\Set 3.1 LA (low SP) Completion Times - Triangular.csv
 {
     "CPM": 19.826971270610656,
     "PERT": 13.145839220534503,
@@ -51,7 +51,7 @@ File 4: Simulation Results\Activities Triangular\Set 3.1 LA (low SP) Completion 
     "Lognormal Mean": 8.79509430800909
 }
 
-File 5: Simulation Results\Activities Triangular\Set 3.2 LA (mid SP) Completion Times - Triangular.csv
+File 5: C:\Users\aidan\Documents\Independent Study\course_files_export V1\Python Scripts\Code\EDA\../../Simulation Results\Activities Triangular\Set 3.2 LA (mid SP) Completion Times - Triangular.csv
 {
     "CPM": 16.251051772189275,
     "PERT": 9.271961946706604,
@@ -59,7 +59,7 @@ File 5: Simulation Results\Activities Triangular\Set 3.2 LA (mid SP) Completion 
     "Lognormal Mean": 4.7270179680992825
 }
 
-File 6: Simulation Results\Activities Triangular\Set 3.3 LA (high SP) Completion Times - Triangular.csv
+File 6: C:\Users\aidan\Documents\Independent Study\course_files_export V1\Python Scripts\Code\EDA\../../Simulation Results\Activities Triangular\Set 3.3 LA (high SP) Completion Times - Triangular.csv
 {
     "CPM": 14.869555163579108,
     "PERT": 7.775345620139783,
@@ -67,7 +67,7 @@ File 6: Simulation Results\Activities Triangular\Set 3.3 LA (high SP) Completion
     "Lognormal Mean": 3.1554591420431803
 }
 
-File 7: Simulation Results\Activities Triangular\Set 4.1 TF (low SP) Completion Times - Triangular.csv
+File 7: C:\Users\aidan\Documents\Independent Study\course_files_export V1\Python Scripts\Code\EDA\../../Simulation Results\Activities Triangular\Set 4.1 TF (low SP) Completion Times - Triangular.csv
 {
     "CPM": 17.05985577915542,
     "PERT": 10.148150091755117,
@@ -75,7 +75,7 @@ File 7: Simulation Results\Activities Triangular\Set 4.1 TF (low SP) Completion 
     "Lognormal Mean": 5.647300501039754
 }
 
-File 8: Simulation Results\Activities Triangular\Set 4.2 TF (mid SP) Completion Times - Triangular.csv
+File 8: C:\Users\aidan\Documents\Independent Study\course_files_export V1\Python Scripts\Code\EDA\../../Simulation Results\Activities Triangular\Set 4.2 TF (mid SP) Completion Times - Triangular.csv
 {
     "CPM": 14.596515310241081,
     "PERT": 7.4795503132628065,
@@ -83,7 +83,7 @@ File 8: Simulation Results\Activities Triangular\Set 4.2 TF (mid SP) Completion 
     "Lognormal Mean": 2.844766765168026
 }
 
-File 9: Simulation Results\Activities Triangular\Set 4.3 TF (high SP) Completion Times - Triangular.csv
+File 9: C:\Users\aidan\Documents\Independent Study\course_files_export V1\Python Scripts\Code\EDA\../../Simulation Results\Activities Triangular\Set 4.3 TF (high SP) Completion Times - Triangular.csv
 {
     "CPM": 14.326620075267193,
     "PERT": 7.18718584604164,
@@ -110,7 +110,7 @@ Lognormal Overall Result Dictionary:
 
 Lognormal Individual dict_diff Dictionaries:
 
-File 1: Simulation Results\Activities Lognormal\Set 1 SP Completion Times - Lognormal.csv
+File 1: C:\Users\aidan\Documents\Independent Study\course_files_export V1\Python Scripts\Code\EDA\../../Simulation Results\Activities Lognormal\Set 1 SP Completion Times - Lognormal.csv
 {
     "CPM": 13.27451640907362,
     "PERT": 6.047415297103335,
@@ -118,7 +118,7 @@ File 1: Simulation Results\Activities Lognormal\Set 1 SP Completion Times - Logn
     "Lognormal Mean": 1.3424036634165362
 }
 
-File 2: Simulation Results\Activities Lognormal\Set 2.1 AD (low SP) Completion Times - Lognormal.csv
+File 2: C:\Users\aidan\Documents\Independent Study\course_files_export V1\Python Scripts\Code\EDA\../../Simulation Results\Activities Lognormal\Set 2.1 AD (low SP) Completion Times - Lognormal.csv
 {
     "CPM": 13.927591656018395,
     "PERT": 6.754876157004852,
@@ -126,7 +126,7 @@ File 2: Simulation Results\Activities Lognormal\Set 2.1 AD (low SP) Completion T
     "Lognormal Mean": 2.0848138310490225
 }
 
-File 3: Simulation Results\Activities Lognormal\Set 2.2 AD (mid SP) Completion Times - Lognormal.csv
+File 3: C:\Users\aidan\Documents\Independent Study\course_files_export V1\Python Scripts\Code\EDA\../../Simulation Results\Activities Lognormal\Set 2.2 AD (mid SP) Completion Times - Lognormal.csv
 {
     "CPM": 12.445688096431779,
     "PERT": 5.1494931203378815,
@@ -134,7 +134,7 @@ File 3: Simulation Results\Activities Lognormal\Set 2.2 AD (mid SP) Completion T
     "Lognormal Mean": 0.40073853667271203
 }
 
-File 4: Simulation Results\Activities Lognormal\Set 3.1 LA (low SP) Completion Times - Lognormal.csv
+File 4: C:\Users\aidan\Documents\Independent Study\course_files_export V1\Python Scripts\Code\EDA\../../Simulation Results\Activities Lognormal\Set 3.1 LA (low SP) Completion Times - Lognormal.csv
 {
     "CPM": 16.731399559680334,
     "PERT": 9.792301508670445,
@@ -142,7 +142,7 @@ File 4: Simulation Results\Activities Lognormal\Set 3.1 LA (low SP) Completion T
     "Lognormal Mean": 5.273569326369479
 }
 
-File 5: Simulation Results\Activities Lognormal\Set 3.2 LA (mid SP) Completion Times - Lognormal.csv
+File 5: C:\Users\aidan\Documents\Independent Study\course_files_export V1\Python Scripts\Code\EDA\../../Simulation Results\Activities Lognormal\Set 3.2 LA (mid SP) Completion Times - Lognormal.csv
 {
     "CPM": 13.632238004402042,
     "PERT": 6.434913401898487,
@@ -150,7 +150,7 @@ File 5: Simulation Results\Activities Lognormal\Set 3.2 LA (mid SP) Completion T
     "Lognormal Mean": 1.7478868609004037
 }
 
-File 6: Simulation Results\Activities Lognormal\Set 3.3 LA (high SP) Completion Times - Lognormal.csv
+File 6: C:\Users\aidan\Documents\Independent Study\course_files_export V1\Python Scripts\Code\EDA\../../Simulation Results\Activities Lognormal\Set 3.3 LA (high SP) Completion Times - Lognormal.csv
 {
     "CPM": 12.538035325741458,
     "PERT": 5.249532283657259,
@@ -158,7 +158,7 @@ File 6: Simulation Results\Activities Lognormal\Set 3.3 LA (high SP) Completion 
     "Lognormal Mean": 0.5033387517463705
 }
 
-File 7: Simulation Results\Activities Lognormal\Set 4.1 TF (low SP) Completion Times - Lognormal ln.csv
+File 7: C:\Users\aidan\Documents\Independent Study\course_files_export V1\Python Scripts\Code\EDA\../../Simulation Results\Activities Lognormal\Set 4.1 TF (low SP) Completion Times - Lognormal ln.csv
 {
     "CPM": 14.407424494942951,
     "PERT": 7.274681952682946,
@@ -166,7 +166,7 @@ File 7: Simulation Results\Activities Lognormal\Set 4.1 TF (low SP) Completion T
     "Lognormal Mean": 2.630319016371899
 }
 
-File 8: Simulation Results\Activities Lognormal\Set 4.2 TF (mid SP) Completion Times - Lognormal.csv
+File 8: C:\Users\aidan\Documents\Independent Study\course_files_export V1\Python Scripts\Code\EDA\../../Simulation Results\Activities Lognormal\Set 4.2 TF (mid SP) Completion Times - Lognormal.csv
 {
     "CPM": 12.343516354709836,
     "PERT": 5.03880118266937,
@@ -174,7 +174,7 @@ File 8: Simulation Results\Activities Lognormal\Set 4.2 TF (mid SP) Completion T
     "Lognormal Mean": 0.2843378807847702
 }
 
-File 9: Simulation Results\Activities Lognormal\Set 4.3 TF (high SP) Completion Times - Lognormal.csv
+File 9: C:\Users\aidan\Documents\Independent Study\course_files_export V1\Python Scripts\Code\EDA\../../Simulation Results\Activities Lognormal\Set 4.3 TF (high SP) Completion Times - Lognormal.csv
 {
     "CPM": 12.127437713127732,
     "PERT": 4.804738644475401,
@@ -201,7 +201,7 @@ BigBeta Overall Result Dictionary:
 
 BigBeta Individual dict_diff Dictionaries:
 
-File 1: Simulation Results\Activities Beta\Set 1 SP Completion Times - Beta.csv
+File 1: C:\Users\aidan\Documents\Independent Study\course_files_export V1\Python Scripts\Code\EDA\../../Simulation Results\Activities Beta\Set 1 SP Completion Times - Beta.csv
 {
     "CPM": 8.843664265270661,
     "PERT": 1.2491375251471761,
@@ -209,7 +209,7 @@ File 1: Simulation Results\Activities Beta\Set 1 SP Completion Times - Beta.csv
     "Lognormal Mean": 4.205479516924082
 }
 
-File 2: Simulation Results\Activities Beta\Set 2.1 AD (low SP) Completion Times - Beta.csv
+File 2: C:\Users\aidan\Documents\Independent Study\course_files_export V1\Python Scripts\Code\EDA\../../Simulation Results\Activities Beta\Set 2.1 AD (low SP) Completion Times - Beta.csv
 {
     "CPM": 9.50161433434465,
     "PERT": 1.962124238252506,
@@ -217,7 +217,7 @@ File 2: Simulation Results\Activities Beta\Set 2.1 AD (low SP) Completion Times 
     "Lognormal Mean": 3.5427498373650135
 }
 
-File 3: Simulation Results\Activities Beta\Set 2.2 AD (mid SP) Completion Times - Beta.csv
+File 3: C:\Users\aidan\Documents\Independent Study\course_files_export V1\Python Scripts\Code\EDA\../../Simulation Results\Activities Beta\Set 2.2 AD (mid SP) Completion Times - Beta.csv
 {
     "CPM": 8.051910560579028,
     "PERT": 0.393313347560677,
@@ -225,7 +225,7 @@ File 3: Simulation Results\Activities Beta\Set 2.2 AD (mid SP) Completion Times 
     "Lognormal Mean": 4.600361764851772
 }
 
-File 4: Simulation Results\Activities Beta\Set 3.1 LA (low SP) Completion Times - Beta.csv
+File 4: C:\Users\aidan\Documents\Independent Study\course_files_export V1\Python Scripts\Code\EDA\../../Simulation Results\Activities Beta\Set 3.1 LA (low SP) Completion Times - Beta.csv
 {
     "CPM": 12.424677083710392,
     "PERT": 5.12668304948537,
@@ -233,7 +233,7 @@ File 4: Simulation Results\Activities Beta\Set 3.1 LA (low SP) Completion Times 
     "Lognormal Mean": 1.9903809529414997
 }
 
-File 5: Simulation Results\Activities Beta\Set 3.2 LA (mid SP) Completion Times - Beta.csv
+File 5: C:\Users\aidan\Documents\Independent Study\course_files_export V1\Python Scripts\Code\EDA\../../Simulation Results\Activities Beta\Set 3.2 LA (mid SP) Completion Times - Beta.csv
 {
     "CPM": 9.330672747879092,
     "PERT": 1.7750314371847948,
@@ -241,7 +241,7 @@ File 5: Simulation Results\Activities Beta\Set 3.2 LA (mid SP) Completion Times 
     "Lognormal Mean": 3.149589777422376
 }
 
-File 6: Simulation Results\Activities Beta\Set 3.3 LA (high SP) Completion Times - Beta.csv
+File 6: C:\Users\aidan\Documents\Independent Study\course_files_export V1\Python Scripts\Code\EDA\../../Simulation Results\Activities Beta\Set 3.3 LA (high SP) Completion Times - Beta.csv
 {
     "CPM": 8.17394981903355,
     "PERT": 0.5220116011295313,
@@ -249,7 +249,7 @@ File 6: Simulation Results\Activities Beta\Set 3.3 LA (high SP) Completion Times
     "Lognormal Mean": 4.46147304751577
 }
 
-File 7: Simulation Results\Activities Beta\Set 4.1 TF (low SP) Completion Times - Beta.csv
+File 7: C:\Users\aidan\Documents\Independent Study\course_files_export V1\Python Scripts\Code\EDA\../../Simulation Results\Activities Beta\Set 4.1 TF (low SP) Completion Times - Beta.csv
 {
     "CPM": 9.982957611157799,
     "PERT": 2.482386136805813,
@@ -257,7 +257,7 @@ File 7: Simulation Results\Activities Beta\Set 4.1 TF (low SP) Completion Times 
     "Lognormal Mean": 2.9848808565662797
 }
 
-File 8: Simulation Results\Activities Beta\Set 4.2 TF (mid SP) Completion Times - Beta.csv
+File 8: C:\Users\aidan\Documents\Independent Study\course_files_export V1\Python Scripts\Code\EDA\../../Simulation Results\Activities Beta\Set 4.2 TF (mid SP) Completion Times - Beta.csv
 {
     "CPM": 7.942973199897151,
     "PERT": 0.2745543636772884,
@@ -265,7 +265,7 @@ File 8: Simulation Results\Activities Beta\Set 4.2 TF (mid SP) Completion Times 
     "Lognormal Mean": 4.724320594444715
 }
 
-File 9: Simulation Results\Activities Beta\Set 4.3 TF (high SP) Completion Times - Beta.csv
+File 9: C:\Users\aidan\Documents\Independent Study\course_files_export V1\Python Scripts\Code\EDA\../../Simulation Results\Activities Beta\Set 4.3 TF (high SP) Completion Times - Beta.csv
 {
     "CPM": 7.72462393443757,
     "PERT": 0.03873086463931048,
