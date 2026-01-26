@@ -50,8 +50,6 @@ The project has evolved to include comprehensive data preparation, cleaning, and
 
 - **Combined_Run.py**: A comprehensive script that runs the analysis for all three distributions (Triangular, Lognormal, BigBeta) in sequence. It prints summaries to the console and writes detailed results (overall dictionaries and individual file dictionaries) to `combined_output.txt`.
 
-- **File_Combine.py**: Legacy script for basic file operations (now superseded by data cleaning scripts).
-
 ## Data Processing Workflow
 
 1. **Data Standardization**: `Data Cleaning.py` ensures all CSV files have consistent columns by adding missing data from corresponding files.
