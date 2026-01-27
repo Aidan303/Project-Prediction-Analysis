@@ -3,7 +3,7 @@ import os
 import json
 import matplotlib.pyplot as plt
 
-base_path = os.path.join(os.path.dirname(__file__), '../../Ouput')
+base_path = os.path.join(os.path.dirname(__file__), '../../Output')
 
 output_data = open(os.path.join(base_path, 'combined_output.txt'), 'r').read()
 
