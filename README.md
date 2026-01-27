@@ -15,7 +15,7 @@ The project has evolved to include comprehensive data preparation, cleaning, and
   - **Data Vis/**: Data visualization scripts for creating charts and graphs
   - **File Combination/**: Data cleaning and combination scripts
 - **Simulation Results/**: Original simulation data (Beta, Lognormal, Triangular subfolders)
-- **Simulation Results copy/**: Working copy of simulation data with modifications
+- **Simulation Results copy/**: Version-controlled working copy of simulation data with modifications
   - **Activities Beta/**: Beta distribution simulation CSVs
   - **Activities Lognormal/**: Lognormal distribution simulation CSVs
   - **Activities Triangular/**: Triangular distribution simulation CSVs
