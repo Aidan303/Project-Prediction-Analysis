@@ -30,6 +30,9 @@ tri_df = pd.DataFrame.from_dict(triangular_results, orient='index', columns=['Tr
 logn_df = pd.DataFrame.from_dict(lognormal_results, orient='index', columns=['Lognormal_Avg_Percent_Diff'])
 bigb_df = pd.DataFrame.from_dict(bigbeta_results, orient='index', columns=['BigBeta_Avg_Percent_Diff'])
 
+tri_df = tri_df.rename(index={'BB/2 Mean': 'BB/2', 'Lognormal Mean': 'Lognormal'})
+logn_df = logn_df.rename(index={'BB/2 Mean': 'BB/2', 'Lognormal Mean': 'Lognormal'})
+bigb_df = bigb_df.rename(index={'BB/2 Mean': 'BB/2', 'Lognormal Mean': 'Lognormal'})
 
 fig, axes = plt.subplots(1, 3, figsize=(15, 5))
 

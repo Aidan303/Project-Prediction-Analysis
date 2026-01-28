@@ -240,9 +240,15 @@ The notebook generates:
    - Top row: grouped bar charts showing mean percent error by method (CPM, PERT, BB/2 Mean, Lognormal Mean) at Low, Mid, and High complexity for each distribution.
    - Bottom row: corresponding line plots (error trends) for each method across complexity levels for each distribution.
 
+3. **Average Perent Difference by Dataset (Bar Chart)**
+    - Nine stacked bar charts (one for each dataset).
+    - Each chart shows Average Percent Difference from the Simulation Mean for each Estimation method (CPM, PERT, BB/2, Lognormal).
+
 ![Percent Difference by Distribution](Output\Graphics\Percent_Difference_Data_Vis_by_Distribution.png)
 
 ![Method Accuracy by Dataset Complexity](Output\Graphics\Method_Accuracy_by_Dataset_Complexity.png)
+
+![Percent Difference by Compleity](Output\Graphics\Percent_Difference_Data_Vis_by_Complexity.png)
 
 ### 4.2 Qualitative Findings from Complexity Analysis
 

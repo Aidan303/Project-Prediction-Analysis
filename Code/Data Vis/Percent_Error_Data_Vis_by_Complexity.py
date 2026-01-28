@@ -9,4 +9,5 @@ df = pd.read_json(os.path.join(os.path.dirname(__file__), '../../Output/Complexi
 # Plotting
 df.plot.bar()
 plt.xticks(rotation=25)
+plt.ylabel('Average Percent Difference (%)')
 plt.show()
