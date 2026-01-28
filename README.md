@@ -60,6 +60,10 @@ The project has evolved to include comprehensive data preparation, cleaning, and
 
 - **Combined_Run.py**: A comprehensive script that runs the analysis for all three distributions (Triangular, Lognormal, BigBeta) in sequence. It prints summaries to the console and writes detailed results (overall dictionaries and individual file dictionaries) to `combined_output.txt`.
 
+### Jupyter Notebooks
+
+- **Jupyter_Test_Env.ipynb**: A notebook for testing and prototyping code snippets, data analysis workflows, and visualizations. Useful for interactive exploration and debugging.
+
 ## Data Processing Workflow
 
 1. **Data Standardization**: `Data Cleaning.py` ensures all CSV files have consistent columns by adding missing data from corresponding files.
