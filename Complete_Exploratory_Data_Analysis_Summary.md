@@ -1,4 +1,4 @@
-# Jupyter Notebook Data Analysis Summary
+# Jupyter Notebook Data Analysis Summary (EDA)
 
 This document summarizes the analyses performed in the notebook `Code/Jupyter_Test_Env.ipynb`, including datasets processed, raw numeric results, interpretation, and the supporting visualizations created in the notebook.
 
