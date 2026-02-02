@@ -16,13 +16,12 @@ The project has evolved to include comprehensive data preparation, cleaning, and
   - **File Combination/**: Data cleaning and combination scripts
 - **R Scripts/**: R-based analysis and visualization scripts
   - **Code/**: R scripts for additional distribution analysis, data combination, and visualization
-- **Simulation Results/**: Original simulation data (Beta, Lognormal, Triangular subfolders)
-- **Simulation Results Copy/**: Archived copy of original simulation results (read-only snapshot)
-- **Simulation Results copy/**: Version-controlled working copy of simulation data with modifications
+  - **Simulation Results Copy/**: Simulation results with combination of files and data complexity columns added in R
+- **Simulation Results copy/**: Version-controlled working copy of simulation data with modifications made by python scripts
   - **Activities Beta/**: Beta distribution simulation CSVs
   - **Activities Lognormal/**: Lognormal distribution simulation CSVs
   - **Activities Triangular/**: Triangular distribution simulation CSVs
-  - **Combined Datasets/**: Combined CSVs with data from all distributions
+  - **Combined Datasets/**: Combined CSVs with data from all distributions for project sets using python
 - **Output/**: Output files and visualizations
   - **Graphics/**: Generated PNG visualization files
 - **Complete_Exploratory_Data_Analysis_Summary.md**: Written report summarizing the full exploratory data analysis and key findings
