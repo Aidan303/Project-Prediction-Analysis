@@ -16,7 +16,7 @@ The project has evolved to include comprehensive data preparation, cleaning, and
   - **File Combination/**: Data cleaning and combination scripts
 - **R Scripts/**: R-based analysis and visualization scripts
   - **Code/**: R scripts for additional distribution analysis, data combination, and visualization
-  - **Simulation Results Copy/**: Simulation results with combination of files and data complexity columns added in R
+  - **Simulation Results Copy/**: Simulation results with combination of files and data complexity columns added in R(AD, SP, LA, TF)
 - **Simulation Results copy/**: Version-controlled working copy of simulation data with modifications made by python scripts
   - **Activities Beta/**: Beta distribution simulation CSVs
   - **Activities Lognormal/**: Lognormal distribution simulation CSVs
