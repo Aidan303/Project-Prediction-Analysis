@@ -1,4 +1,4 @@
-# Python Scripts for Distribution Analysis and Data Processing
+# Python and R Scripts for Distribution Analysis and Data Processing
 
 ## Overview
 
@@ -10,11 +10,14 @@ The project has evolved to include comprehensive data preparation, cleaning, and
 
 ### Folders
 
-- **Code/**: Main scripts directory
+- **Python Code/**: Main Python scripts directory
   - **EDA/**: Exploratory Data Analysis scripts (e.g., Percent_Difference_Method.py, Complexity_Combined_Per_Diff.py)
   - **Data Vis/**: Data visualization scripts for creating charts and graphs
   - **File Combination/**: Data cleaning and combination scripts
+- **R Scripts/**: R-based analysis and visualization scripts
+  - **Code/**: R scripts for additional distribution analysis, data combination, and visualization
 - **Simulation Results/**: Original simulation data (Beta, Lognormal, Triangular subfolders)
+- **Simulation Results Copy/**: Archived copy of original simulation results (read-only snapshot)
 - **Simulation Results copy/**: Version-controlled working copy of simulation data with modifications
   - **Activities Beta/**: Beta distribution simulation CSVs
   - **Activities Lognormal/**: Lognormal distribution simulation CSVs
@@ -22,6 +25,7 @@ The project has evolved to include comprehensive data preparation, cleaning, and
   - **Combined Datasets/**: Combined CSVs with data from all distributions
 - **Output/**: Output files and visualizations
   - **Graphics/**: Generated PNG visualization files
+- **Complete_Exploratory_Data_Analysis_Summary.md**: Written report summarizing the full exploratory data analysis and key findings
 - **__pycache__/**: Python bytecode files
 
 ### Core Analysis Modules (EDA Folder)
@@ -38,7 +42,7 @@ The project has evolved to include comprehensive data preparation, cleaning, and
 
 - **Percent_Error_Data_Vis_by_Complexity.py**: Creates a bar chart visualizing percent differences across complexity levels. Reads from Complexity_Combined_Per_Diff.json to show how estimation accuracy varies with project complexity.
 
-### Distribution-Specific Analysis Scripts (Code Folder)
+### Distribution-Specific Analysis Scripts (EDA Folder in Python Code)
 
 - **Triangular_Distribution_Avg_%_Diff.py**: Runs the analysis for Triangular distribution datasets. It defines a list of CSV file paths for Triangular simulation results and computes the overall average percent differences for this distribution.
 
@@ -46,7 +50,7 @@ The project has evolved to include comprehensive data preparation, cleaning, and
 
 - **BigBeta_Distribution_Avg_%_Diff.py**: Runs the analysis for Beta (BigBeta) distribution datasets. It defines a list of CSV file paths for Beta simulation results and computes the overall average percent differences for this distribution.
 
-### Data Preparation and Combination Scripts (File Combination Folder)
+### Data Preparation and Combination Scripts (File Combination Folder in Python Code)
 
 - **Data Cleaning.py**: Handles data standardization and cleaning. Identifies CSV files with missing columns, adds missing columns with data from corresponding files, and ensures all files have consistent 28 columns.
 
@@ -54,7 +58,7 @@ The project has evolved to include comprehensive data preparation, cleaning, and
 
 - **dataset_combination.py**: Combines corresponding CSV files from the three distribution folders into unified datasets. Each combined file stacks data from Beta, Lognormal, and Triangular distributions, adds a "Distribution" column, and includes dummy variables (Is_Beta, Is_Lognormal, Is_Triangular) for modeling.
 
-### Utility Scripts (Code Folder)
+### Utility Scripts (Python Code Folder)
 
 - **Individual_File_Stats_Calculator.py**: A standalone script that prompts the user for a single file path and calculates the percent differences for that file using the `Percent_Difference_Method` module. Useful for quick analysis of individual datasets.
 
@@ -64,13 +68,17 @@ The project has evolved to include comprehensive data preparation, cleaning, and
 
 - **Jupyter_Test_Env.ipynb**: A notebook for testing and prototyping code snippets, data analysis workflows, and visualizations. Useful for interactive exploration and debugging.
 
+## R Script Integration
+
+The R scripts in "R Scripts/Code/" provide parallel and extended analyses of the combined datasets, including additional distribution-specific summaries and visualizations. They operate on the same standardized and combined CSV files created by the Python pipeline, enabling cross-validation of results and alternative visualization approaches. Alternate visuals in the R Scripts folder are made using ggplot2 and are black and white publisher friendly.
+
 ## Data Processing Workflow
 
 1. **Data Standardization**: `Data Cleaning.py` ensures all CSV files have consistent columns by adding missing data from corresponding files.
 
 2. **Column Validation**: `read_csv_columns.py` scans all files and generates a JSON summary of column structures.
 
-3. **Dataset Combination**: `dataset_combination.py` creates combined CSV files in "Combined Datasets/", stacking data from all distributions with identification columns.
+3. **Dataset Combination**: `dataset_combination.py` creates combined CSV files in "Simulation Results copy/Combined Datasets/", stacking data from all distributions with identification columns.
 
 4. **Analysis**: Original EDA scripts process the combined or individual datasets to compute percent differences.
 
@@ -90,7 +98,7 @@ The project has evolved to include comprehensive data preparation, cleaning, and
   - **Percent_Difference_Data_Vis_by_Complexity.png**: Bar chart showing percent differences across complexity levels.
   - **Percent_Difference_Data_Vis_by_Distribution.png**: Side-by-side bar charts comparing estimation methods across distributions.
 
-- **Combined Datasets/**: Folder containing 9 combined CSV files (e.g., "Set 1 SP Completion Times - Combined.csv"), each with ~1200-2700 rows from all distributions, plus dummy variables.
+- **Simulation Results copy/Combined Datasets/**: Folder containing 9 combined CSV files (e.g., "Set 1 SP Completion Times - Combined.csv"), each with ~1200-2700 rows from all distributions, plus dummy variables.
 
 ## How It Works
 
@@ -123,13 +131,13 @@ Overall, PERT and Lognormal Mean tend to provide the most accurate estimates acr
 ## Usage
 
 1. Ensure data is in "Simulation Results copy/" with subfolders.
-2. Run data cleaning: `python Code/File Combination/Data Cleaning.py`
-3. Generate column summary: `python Code/File Combination/read_csv_columns.py`
-4. Combine datasets: `python Code/File Combination/dataset_combination.py`
-5. Run analysis: `python Code/Combined_Run.py`
-6. Run complexity analysis: `python Code/EDA/Complexity_Combined_Per_Diff.py`
+2. Run data cleaning: `python "Python Code/File Combination/Data Cleaning.py"`
+3. Generate column summary: `python "Python Code/File Combination/read_csv_columns.py"`
+4. Combine datasets: `python "Python Code/File Combination/dataset_combination.py"`
+5. Run analysis: `python "Python Code/Combined_Run.py"`
+6. Run complexity analysis: `python "Python Code/EDA/Complexity_Combined_Per_Diff.py"`
 7. Generate visualizations: 
-   - `python Code/Data Vis/Percent_Error_Data_Vis_by_Distro.py`
-   - `python Code/Data Vis/Percent_Error_Data_Vis_by_Complexity.py`
+  - `python "Python Code/Data Vis/Percent_Error_Data_Vis_by_Distro.py"`
+  - `python "Python Code/Data Vis/Percent_Error_Data_Vis_by_Complexity.py"`
 
-Combined datasets in "Combined Datasets/" can be used for further EDA or modeling. Visualization files are saved in "Output/Graphics/".
+Combined datasets in "Simulation Results copy/Combined Datasets/" can be used for further EDA or modeling. Visualization files are saved in "Output/Graphics/".
