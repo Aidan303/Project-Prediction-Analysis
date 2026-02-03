@@ -1,0 +1,177 @@
+---
+title: "InitialEDA"
+format: html
+editor: visual
+---
+
+# Initial EDA
+
+## Cleaning
+
+```{r}
+library(tidyverse)
+library(janitor)
+folder_list <- c("Activities Beta", "Activities Lognormal", "Activities Triangular")
+all_files <- list.files(
+  path = folder_list, 
+  pattern = "*.csv", 
+  full.names = TRUE, 
+  recursive = TRUE
+)
+
+master_data <- all_files %>%
+  map(read_csv) %>%
+  list_rbind(names_to = "file_index")
+
+master_data <- master_data %>%
+  clean_names()
+
+write_csv(master_data, "Combined_Master_Data.csv")
+head(master_data)
+```
+
+## Overall Difference Between PERT, BB/2, and Lognormal to Sim
+
+```{r}
+library(janitor)
+library(tidyverse)
+
+master_data_pct <- master_data %>%
+  mutate(
+    pct_diff_PERT = ((pert - sim_mean) / sim_mean) * 100,
+    pct_diff_BB = ((bb_2_mean - sim_mean) / sim_mean) * 100,
+    pct_diff_Log = ((lognormal_mean - sim_mean) / sim_mean) * 100
+  )
+```
+
+## Summarizing
+
+```{r}
+master_data_pct %>%
+  summarise(
+    avg_pct_PERT = mean(pct_diff_PERT, na.rm = TRUE),
+    avg_pct_BB = mean(pct_diff_BB, na.rm = TRUE),
+    avg_pct_Log = mean(pct_diff_Log, na.rm = TRUE)
+  )
+```
+
+## Beta Difference Between PERT, BB/2, and Lognormal to Sim
+
+```{r}
+library(knitr)
+
+Beta_summary_table <- master_data_pct %>%
+  filter(str_detect(activity_distribution, "beta")) %>%
+  summarise(
+    PERT_diff = mean(pct_diff_PERT, na.rm = TRUE),
+    BB_diff = mean(pct_diff_BB, na.rm = TRUE),
+    Log_diff = mean(pct_diff_Log, na.rm = TRUE),
+    total_runs = n()
+  )
+
+Beta_summary_table %>%
+  kable(
+    digits = 2, 
+    col.names = c("Avg PERT %","Avg BB %", "Avg Log %", "Total Runs"),
+    caption = "Summary of BetaActivity Simulation Results"
+  )
+```
+
+## Lognormal Difference Between PERT, BB/2, and Lognormal to Sim
+
+```{r}
+Lognormal_summary_table <- master_data_pct %>%
+  filter(str_detect(activity_distribution, "lognormal")) %>%
+  summarise(
+    PERT_diff = mean(pct_diff_PERT, na.rm = TRUE),
+    BB_diff = mean(pct_diff_BB, na.rm = TRUE),
+    Log_diff = mean(pct_diff_Log, na.rm = TRUE),
+    total_runs = n()
+  )
+
+Lognormal_summary_table %>%
+  kable(
+    digits = 2, 
+    col.names = c("Avg PERT %", "Avg BB %", "Avg Log %", "Total Runs"),
+    caption = "Summary of Lognormal Activity Simulation Results"
+  )
+```
+
+## Triangular Difference Between PERT, BB/2, and Lognormal to Sim
+
+```{r}
+Triangular_summary_table <- master_data_pct %>%
+  filter(str_detect(activity_distribution, "triangular")) %>%
+  summarise(
+    PERT_diff = mean(pct_diff_PERT, na.rm = TRUE),
+    BB_diff = mean(pct_diff_BB, na.rm = TRUE),
+    Log_diff = mean(pct_diff_Log, na.rm = TRUE),
+    total_runs = n()
+  )
+
+Triangular_summary_table %>%
+  kable(
+    digits = 2, 
+    col.names = c("Avg PERT %", "Avg BB %", "Avg Log %", "Total Runs"),
+    caption = "Summary of Triangular Activity Simulation Results"
+  )
+```
+
+## Summary
+
+```{r}
+Combined_Results <- bind_rows(
+  "Beta"   = Beta_summary_table, 
+  "Lognormal"  = Lognormal_summary_table, 
+  "Triangular" = Triangular_summary_table, 
+  .id = "Distribution"
+)
+
+library(knitr)
+
+Combined_Results %>%
+  kable(
+    digits = 2, 
+    col.names = c("Distribution", 
+                  "Avg PERT %",
+                  "Avg BB %",
+                  "Avg Log %",
+                  "Total Runs"),
+    caption = "Final Comparison of Simulation Distribution Performance"
+  )
+```
+
+```{r}
+# 1. Clean the 'Model' names for the legend
+plot_data_clean <- plot_data %>%
+  mutate(Model = str_replace(Model, "_diff", ""))
+
+# 2. Create the Polished Chart
+ggplot(plot_data_clean, aes(x = Distribution, y = Avg_Percentage, fill = Model)) +
+  geom_col(position = position_dodge(width = 0.8), width = 0.7) +
+  # Add text labels on the bars
+  geom_text(
+    aes(label = round(Avg_Percentage, 2)), 
+    position = position_dodge(width = 0.8), 
+    vjust = ifelse(plot_data_clean$Avg_Percentage >= 0, -0.5, 1.5), # Adjusts label if bar is +/-
+    size = 3.5,
+    fontface = "bold"
+  ) +
+  geom_hline(yintercept = 0, color = "black", linewidth = 0.8) +
+  scale_fill_manual(values = c("BB" = "#4E79A7", "Log" = "#F28E2B", "PERT" = "#E15759")) + # Professional "Tableau" colors
+  theme_minimal(base_size = 14) +
+  theme(
+    panel.grid.major.x = element_blank(),
+    legend.position = "top",
+    plot.title = element_text(face = "bold", hjust = 0.5),
+    plot.subtitle = element_text(hjust = 0.5)
+  ) +
+  labs(
+    title = "Simulation Accuracy by Distribution Type",
+    x = "Distribution Category",
+    y = "Variance (%)",
+    fill = "Model Method:"
+  ) +
+  # Expand the y-axis a bit so labels don't get cut off
+  scale_y_continuous(expand = expansion(mult = c(0.2, 0.2)))
+```
