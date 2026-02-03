@@ -25,6 +25,7 @@ The project has evolved to include comprehensive data preparation, cleaning, and
 - **Output/**: Output files and visualizations
   - **Graphics/**: Generated PNG visualization files
 - **Complete_Exploratory_Data_Analysis_Summary.md**: Written report summarizing the full exploratory data analysis and key findings
+- **Complete_Exploratory_Data_Analysis_Summary_99_Percentile.md**: Written report summarizing the 99% completion time (Sim 99%) analysis and tail-risk-focused findings
 - **__pycache__/**: Python bytecode files
 
 ### Core Analysis Modules (EDA Folder)
@@ -96,6 +97,8 @@ The R scripts in "R Scripts/Code/" provide parallel and extended analyses of the
 - **Graphics/**: Folder containing generated visualization files:
   - **Percent_Difference_Data_Vis_by_Complexity.png**: Bar chart showing percent differences across complexity levels.
   - **Percent_Difference_Data_Vis_by_Distribution.png**: Side-by-side bar charts comparing estimation methods across distributions.
+  - **99_Python_Visualizations/Percent_Difference_by_Distribution_99.png**: Bar charts showing 99% (Sim 99%) percent differences by estimation method for each distribution.
+  - **99_Python_Visualizations/Method_Accuracy_by_Dataset_Complexity_99.png**: Bar and line plots showing 99% (Sim 99%) percent error by method across Low, Mid, and High complexity for each distribution.
 
 - **Simulation Results copy/Combined Datasets/**: Folder containing 9 combined CSV files (e.g., "Set 1 SP Completion Times - Combined.csv"), each with ~1200-2700 rows from all distributions, plus dummy variables.
 
