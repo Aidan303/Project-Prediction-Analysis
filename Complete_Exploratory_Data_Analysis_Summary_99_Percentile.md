@@ -256,7 +256,7 @@ The notebook generates visualizations to summarize how **mean percent error at t
   - A grid of bar and line plots showing mean percent error for PERT (99%), BB/2 (99%), and Lognormal (99%) at Low, Mid, and High complexity for each distribution (Triangular, Lognormal, Beta).
    - This figure is saved as:
 
-    ![Method Accuracy by Dataset Complexity (99%)](Output/Graphics/99_Python_Visualizations/Method_Accuracy_by_Dataset_Complexity_99.png)
+![Method Accuracy by Dataset Complexity (99%)](Output/Graphics/99_Python_Visualizations/Method_Accuracy_by_Dataset_Complexity_99.png)
 
   - In the plot, the legend explicitly labels PERT (99%), BB/2 (99%), and Lognormal (99%) to distinguish these tail-focused methods.
 
