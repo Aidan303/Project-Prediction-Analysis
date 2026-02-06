@@ -58,7 +58,7 @@ The goal is to understand how variability in completion times scales with comple
 
 ---
 
-## 2. Overall SD-Based Percent Difference Results
+## 2. Overall SD-Based Percent Error Results
 
 The first set of SD results aggregates information by distribution, summarizing how variable the completion times are for each underlying probability model and how well each SD-based method matches the simulated SD (`Sim SD`).
 
@@ -66,34 +66,34 @@ The notebook also visualizes these distribution-level patterns:
 
 ![Average Percent Difference by Distribution (SD)](Output/Graphics/SD_Python_Vizualizations/Average_Percent_Difference_by_Distribution_SD.png)
 
-### 2.1 Triangular Distribution (Overall SD Percent Difference)
+### 2.1 Triangular Distribution (Overall SD Percent Error)
 
 ```text
-Average Triangular Percent Difference by Column SD:
+Average Triangular Absolute Percent Error by Column SD:
 ---------------------------------------------------
-PERT SD             : 17.31%
-BB/2 SD             : 30.21%
-Lognormal SD        : 93.82%
+PERT SD             : 15.79%
+BB/2 SD             : 38.36%
+Lognormal SD        : 188.79%
 ```
 
-### 2.2 Lognormal Distribution (Overall SD Percent Difference)
+### 2.2 Beta Distribution (Overall SD Percent Error)
 
 ```text
-Average Lognormal Percent Difference by Column SD:
---------------------------------------------------
-PERT SD             :  5.88%
-BB/2 SD             : 38.56%
-Lognormal SD        : 102.02%
-```
-
-### 2.3 Beta Distribution (Overall SD Percent Difference)
-
-```text
-Average Beta Percent Difference by Column SD:
+Average Beta Absolute Percent Error by Column SD:
 ---------------------------------------------
-PERT SD             :  4.43%
-BB/2 SD             : 47.20%
-Lognormal SD        : 109.52%
+PERT SD             : 4.76%
+BB/2 SD             : 67.71%
+Lognormal SD        : 258.50%
+```
+
+### 2.3 Lognormal Distribution (Overall SD Percent Error)
+
+```text
+Average Lognormal Absolute Percent Error by Column SD:
+--------------------------------------------------
+PERT SD             : 5.70%
+BB/2 SD             : 53.45%
+Lognormal SD        : 225.91%
 ```
 
 ### 2.4 Interpretation of Overall SD Results
@@ -117,7 +117,7 @@ The SD-focused complexity visualization summarizes these results:
 ### 3.1 Triangular Distribution – Mean SD Percent Error (by Complexity)
 
 ```text
-Triangular Distribution - Mean Percent Error (by Complexity):
+Triangular Distribution - Mean Absolute Percent Error (by Complexity):
 --------------------------------------------------------------------------------
 
 Low Complexity:
@@ -139,7 +139,7 @@ High Complexity:
 ### 3.2 Lognormal Distribution – Mean SD Percent Error (by Complexity)
 
 ```text
-Lognormal Distribution - Mean Percent Error (by Complexity):
+Lognormal Distribution - Mean Absolute Percent Error (by Complexity):
 --------------------------------------------------------------------------------
 
 Low Complexity:
@@ -161,7 +161,7 @@ High Complexity:
 ### 3.3 Beta Distribution – Mean SD Percent Error (by Complexity)
 
 ```text
-Beta Distribution - Mean Percent Error (by Complexity):
+Beta Distribution - Mean Absolute Percent Error (by Complexity):
 --------------------------------------------------------------------------------
 
 Low Complexity:

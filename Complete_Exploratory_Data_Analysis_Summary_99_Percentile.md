@@ -70,7 +70,7 @@ Lower percent error indicates a more accurate 99% completion time estimate relat
 ### 2.1 Triangular Distribution (99% Level)
 
 ```text
-Triangular Distribution - Method Rankings (Best → Worst):
+Triangular Distribution - MAPE Method Rankings (Best → Worst):
 --------------------------------------------------------------------------------
 
 Low Complexity:
@@ -97,7 +97,7 @@ High Complexity:
 ### 2.2 Lognormal Distribution (99% Level)
 
 ```text
-Lognormal Distribution - Method Rankings (Best → Worst):
+Lognormal Distribution - MAPE Method Rankings (Best → Worst):
 --------------------------------------------------------------------------------
 
 Low Complexity:
@@ -124,7 +124,7 @@ High Complexity:
 ### 2.3 Beta Distribution (99% Level)
 
 ```text
-Beta Distribution - Method Rankings (Best → Worst):
+Beta Distribution - MAPE Method Rankings (Best → Worst):
 --------------------------------------------------------------------------------
 
 Low Complexity:
@@ -158,7 +158,7 @@ In addition to percent errors, the notebook reports the **actual mean 99% comple
 ### 3.1 Triangular Distribution – Mean 99% Completion Times
 
 ```text
-Triangular Distribution - Mean Completion Times (days):
+Triangular Distribution - Mean 99% Completion Times (days):
 --------------------------------------------------------------------------------
 
 Low Complexity:
@@ -188,7 +188,7 @@ High Complexity:
 ### 3.2 Lognormal Distribution – Mean 99% Completion Times
 
 ```text
-Lognormal Distribution - Mean Completion Times (days):
+Lognormal Distribution - Mean 99% Completion Times (days):
 --------------------------------------------------------------------------------
 
 Low Complexity:
@@ -219,7 +219,7 @@ High Complexity:
 ### 3.3 Beta Distribution – Mean 99% Completion Times
 
 ```text
-Beta Distribution - Mean Completion Times (days):
+Beta Distribution - Mean 99% Completion Times (days):
 --------------------------------------------------------------------------------
 
 Low Complexity:
